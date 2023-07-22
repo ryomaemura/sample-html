@@ -10,11 +10,22 @@
     <div class="main">
       <h1 class="title">物体検知Webアプリ</h1>
 
+      <!-- <select
+        name="select-image"
+        id="select-image"
+        onchange="handleChange(this)"
+      ></select> -->
+
       <button class="detection-button" onclick="detect()">判定開始</button>
 
-      <img class="target-image" src="./images/bus.jpg" alt="バス" />
+      <img
+        class="target-image"
+        src="./images/target_image3.jpg"
+        alt="target_image"
+      />
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./js/script.js" charset="UTF-8"></script>
   </body>
 </html>
